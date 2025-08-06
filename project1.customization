@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "32034b2a-37b3-458f-9dee-c12993806250",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "c2127056-19ce-4079-8ba8-f9332dbe734d",
+      "cell_type": "code",
+      "source": "def add(x, y):\n    return x + y\n\ndef subtract(x, y):\n    return x - y\n\ndef multiply(x, y):\n    return x * y\n\ndef divide(x, y):\n    if y != 0:\n        return x / y\n    else:\n        return \"Error: Cannot divide by zero.\"\n\nprint(\"Select operation:\")\nprint(\"1. Add\")\nprint(\"2. Subtract\")\nprint(\"3. Multiply\")\nprint(\"4. Divide\")\n\nchoice = input(\"Enter choice (1/2/3/4): \")\n\nnum1 = float(input(\"Enter first number: \"))\nnum2 = float(input(\"Enter second number: \"))\n\nif choice == '1':\n    print(\"Result:\", add(num1, num2))\nelif choice == '2':\n    print(\"Result:\", subtract(num1, num2))\nelif choice == '3':\n    print(\"Result:\", multiply(num1, num2))\nelif choice == '4':\n    print(\"Result:\", divide(num1, num2))\nelse:\n    print(\"Invalid input.\")\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Select operation:\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n"
+        },
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "Enter choice (1/2/3/4):  4\nEnter first number:  2\nEnter second number:  4\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Result: 0.5\n"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "id": "8d4b0d5f-a4db-4b4e-95b4-a562a822d400",
+      "cell_type": "code",
+      "source": "def add(x, y):\n    return x + y\n\ndef subtract(x, y):\n    return x - y\n\ndef multiply(x, y):\n    return x * y\n\ndef divide(x, y):\n    if y != 0:\n        return x / y\n    else:\n        return \"Error: Cannot divide by zero.\"\n\nprint(\"Select operation:\")\nprint(\"1. Add\")\nprint(\"2. Subtract\")\nprint(\"3. Multiply\")\nprint(\"4. Divide\")\n\nchoice = input(\"Enter choice (1/2/3/4): \")\n\nnum1 = float(input(\"Enter first number: \"))\nnum2 = float(input(\"Enter second number: \"))\n\nif choice == '1':\n    print(\"Result:\", add(num1, num2))\nelif choice == '2':\n    print(\"Result:\", subtract(num1, num2))\nelif choice == '3':\n    print(\"Result:\", multiply(num1, num2))\nelif choice == '4':\n    print(\"Result:\", divide(num1, num2))\nelse:\n    print(\"Invalid input.\")\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Select operation:\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n"
+        },
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "Enter choice (1/2/3/4):  4\nEnter first number:  2\nEnter second number:  4\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Result: 0.5\n"
+        }
+      ],
+      "execution_count": 2
+    }
+  ]
+}
